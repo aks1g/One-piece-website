@@ -1,0 +1,14 @@
+body{
+    background-color: #ddd;
+}
+.hat{
+    border: 3px solid red;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px 0 hsla(0, 0%, 0%, 0.374);;
+}
+.hat li{
+    margin-left: 2rem;
+    list-style: disc;
+}

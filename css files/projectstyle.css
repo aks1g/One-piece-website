@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+.card{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.card1{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.card2{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.card, .card1, .card2{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 1em;
+    width: calc(25% - 2em);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card img,
+.card1 img,
+.card2 img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.card-content h3 {
+    margin: 0.5em 0;
+}
+
+.card-content p {
+    margin: 0;
+    color: #666;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+.card1:hover {
+    transform: translateY(-10px);
+}
+
+.card2:hover {
+    transform: translateY(-10px);
+}
+.grid::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.grid1::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid3::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@media (min-width: 280px) and (max-width: 700px){
+    .card, .card1, .card2{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .container h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .container p{
+        font-size: large;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1280px){
+    .container h3{
+        font-size: 12px ;
+        font-weight: 500;
+    }
+
+    .container p{
+        letter-spacing: 0;
+    }
+
+}
