@@ -17,7 +17,7 @@
                 <li class="nav-items"><a href="./home.html">HOME</a></li>
                 <li class="nav-items"><a href="./about.html">OP CHAR.</a></li>
                 <li class="nav-items"><a href="./aboutus.html">ABOUT US</a></li>
-                <li class="nav-items"><a href="./contact.html">CONTACT US</a></li>
+                <li class="nav-items"><a href="./contact.php">CONTACT US</a></li>
         </ul>
     </div>
 </nav>
