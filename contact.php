@@ -42,7 +42,7 @@
                     </div>
                         <img src="./img/MV5BM2YwYTkwNjItNGQzNy00MWE1LWE1M2ItOTMzOGI1OWQyYjA0XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg" alt="one piece company" class="company-img1">
                 </div>
-                <form action="sendmail.php" class="form" method="POST">
+                <form class="form" method="POST">
                     <h1 class="lg-heading form-heading"> contact us</h1>
                     <p class="text-grey">Have any questions, suggestions, or just want to share your love for One Piece? We're here to listen! Reach out to us through the form below, and we'll get back to you as soon as possible.</p>
                     <div class="info">
