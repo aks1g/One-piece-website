@@ -93,7 +93,7 @@ if(isset($_POST['send']))
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $$msg = $_POST['msg'];
+    $msg = $_POST['msg'];
 }
 
 //Load Composer's autoloader (created by composer, not included with PHPMailer)
