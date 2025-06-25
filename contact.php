@@ -14,7 +14,7 @@
         <div class="container">
             <h1 class="logo">OP</h1>
             <ul class="links">
-                <li class="nav-items"><a href="./home.html">HOME</a></li>
+                <li class="nav-items"><a href="./index.html">HOME</a></li>
                 <li class="nav-items"><a href="./about.html">OP CHAR.</a></li>
                 <li class="nav-items"><a href="./aboutus.html">ABOUT US</a></li>
                 <li class="nav-items"><a href="./contact.php">CONTACT US</a></li>
@@ -109,8 +109,8 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'akshitgo66@gmail.com';                     //SMTP username
-    $mail->Password   = 'eokq hzmi bkun qhyk';                               //SMTP password
+    $mail->Username   = 'akshitgo66@gmail.com';                 //SMTP username
+    $mail->Password   = 'eokq hzmi bkun qhyk';                  //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
